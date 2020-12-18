@@ -2,7 +2,6 @@
 # coding: utf-8
 
 import pandas as pd
-import numpy as np
 from urllib.parse import urlencode
 import urllib.request, json
 import requests
@@ -103,7 +102,7 @@ def filters_cleaner(filters):
     Examples
     ---
     >>> filters_clean(filters={'agency':['DOT'],'borough':['BRONX']})
-    'agency = "DOT" and boro =  "BRONX"''
+    'agency = "DOT" and boro =  "BRONX"'
     >>> 
     
     """
