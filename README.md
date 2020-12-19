@@ -16,11 +16,15 @@ $ pip install -i https://test.pypi.org/simple/ project_mer2245
 
 ## Dependencies
 
-- TODO
+python = "^3.8"
+pandas = "1.1.4"
+bs4 = "^0.0.1"
+requests = "^2.25.1"
+numpy = "1.19.3"
 
 ## Usage
 
-- TODO
+- Python package to download data from NYC Open Data in a easy and fast way.
 
 ## Documentation
 
